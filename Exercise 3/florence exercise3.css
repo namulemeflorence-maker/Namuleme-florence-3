@@ -1,0 +1,120 @@
+body {
+	color:blue;
+	background-color:skyblue;
+	margin:10px 30px 70px 50px;
+	padding:10px 30px 70px 50px;
+	text-align:centre;
+	border-color:20px solid red;
+}
+strong {
+  color: #c70039;
+  font-weight: bold;
+}
+
+em {
+  color: #009688;
+  font-style: italic;
+}
+
+mark {
+  background-color: #ffeb3b;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+small {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.highlight {
+  color: #0d6efd;
+  font-weight: bold;
+  text-decoration: underline;
+}
+code {
+  background-color: #f1f1f1;
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: #d63384;
+}
+.mercy {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(221, 23, 23, 0.1);
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-indent: 40px; 
+}
+.fancy-indent {
+      text-indent: 30px;
+      padding-left: 20px;
+      border-left: 3px solid #007BFF;
+    }
+	.horizontal-text {
+    writing-mode: horizontal-tb; /* default horizontal writing */
+    text-orientation: mixed; /* ignored for horizontal writing */
+}
+
+/* Vertical text with upright characters */
+.vertical-upright {
+    writing-mode: vertical-rl; /* vertical text from top to bottom, right to left */
+    text-orientation: upright; /* keeps letters upright */
+    border: 1px solid #007BFF;
+    padding: 10px;
+    width: 50px;
+}
+
+/* Vertical text with mixed orientation (rotates some characters) */
+.vertical-mixed {
+    writing-mode: vertical-rl;
+    text-orientation: mixed; /* some characters may rotate */
+    border: 1px solid #FF5733;
+    padding: 10px;
+    width: 50px;
+}
+.box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 150px;
+    min-height: 200px;
+    text-align: center;
+}
+.overflow-box {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    overflow: hidden; /* Hides overflowed text */
+}
+fade {
+    position: relative;
+}
+
+.fade::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(to left, white, transparent);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+p {
+	padding:10px;
+margin:10px;
+backgruond-color:pink;
+}
+h2{
+	background-color:orange;
